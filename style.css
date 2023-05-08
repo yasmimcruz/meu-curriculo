@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    font-family: cursive;
+    color: lightcoral;
+}
+
+.container {
+    background-color: black ;
+    border: 5px solid mistyrose;
+    padding: 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+      'header header header header header'
+      'menu menu menu menu menu'
+      'sidebar content content content content'
+      'footer footer footer footer footer'
+}
+
+#header {
+    grid-area: header;
+}
+
+#menu {
+    grid-area: menu;
+}
+
+#sidebar {
+    grid-area: sidebar; 
+    height: 100vh;
+ }
+
+#content {
+     grid-area: content;
+     height: 100vh;
+ }
+
+ #footer { 
+    grid-area: footer;
+ }
+
+.container div {
+    background-color: mistyrose; 
+    padding: 15px; 
+    border: 1px solid black;
+}
