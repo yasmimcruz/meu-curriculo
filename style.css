@@ -1,12 +1,12 @@
 body{
     background-color: black;
     font-family: cursive;
-    color: lightcoral;
+    color: black;
 }
 
 .container {
     background-color: black ;
-    border: 5px solid mistyrose;
+    border: 5px solid mediumslateblue;
     padding: 15px;
     display: grid;
     gap: 10px;
@@ -15,6 +15,7 @@ body{
       'menu menu menu menu menu'
       'sidebar content content content content'
       'footer footer footer footer footer'
+      
 }
 
 #header {
@@ -40,7 +41,7 @@ body{
  }
 
 .container div {
-    background-color: mistyrose; 
+    background-color: mediumslateblue; 
     padding: 15px; 
     border: 1px solid black;
 }
