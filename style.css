@@ -5,6 +5,11 @@ body{
     cursor: url(http://www.webcis.com.br/images/lupa-clientes.cur), default;
 }
 
+body ::selection {
+    background-color: black;
+    color: mediumslateblue;
+}
+
 .container {
     background-color: black ;
     border: 5px solid mediumslateblue;
@@ -14,7 +19,7 @@ body{
     grid-template-areas: 
       'header header header header header'
       'menu menu menu menu menu'
-      'sidebar content content content content'
+      'content content content content content'
       'footer footer footer footer footer'
       
 }
@@ -23,14 +28,10 @@ body{
     grid-area: header;
 }
 
+
 #menu {
     grid-area: menu;
 }
-
-#sidebar {
-    grid-area: sidebar; 
-    height: 100vh;
- }
 
 #content {
      grid-area: content;
@@ -41,6 +42,10 @@ body{
     grid-area: footer;
  }
 
+ .fa-brands{
+    color: black;
+ }
+
 .container div {
     background-color: mediumslateblue; 
     padding: 15px; 
@@ -49,5 +54,13 @@ body{
 
 h1 {
     font-size: 35px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+#contatos {
     text-align: center;
 }
