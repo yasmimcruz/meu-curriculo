@@ -2,6 +2,7 @@ body{
     background-color: black;
     font-family: cursive;
     color: black;
+    cursor: url(http://www.webcis.com.br/images/lupa-clientes.cur), default;
 }
 
 .container {
@@ -44,4 +45,9 @@ body{
     background-color: mediumslateblue; 
     padding: 15px; 
     border: 1px solid black;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
 }
