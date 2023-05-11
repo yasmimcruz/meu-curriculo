@@ -21,7 +21,6 @@ body ::selection {
       'menu menu menu menu menu'
       'content content content content content'
       'footer footer footer footer footer'
-      
 }
 
 #header {
@@ -59,8 +58,9 @@ h1 {
 
 li {
     display: inline;
+    padding-left: 280px;
 }
 
-#contatos {
-    text-align: center;
+a {
+    color: black;
 }
