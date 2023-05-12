@@ -35,7 +35,8 @@ body ::selection {
 #content {
      grid-area: content;
      height: 100vh;
- }
+     grid-template-rows: auto;
+}
 
  #footer { 
     grid-area: footer;
@@ -47,7 +48,7 @@ body ::selection {
 
 .container div {
     background-color: mediumslateblue; 
-    padding: 15px; 
+    padding: 5px; 
     border: 1px solid black;
 }
 
@@ -64,3 +65,21 @@ li {
 a {
     color: black;
 }
+
+img {
+   
+    width: 110px;
+    height: 190px;
+    margin-right: 15px;
+    float: left;
+}
+
+#Eu{
+    border: 5px solid black;
+}
+
+#Formação{
+    border: 5px solid black;
+}
+
+
