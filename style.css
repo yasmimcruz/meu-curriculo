@@ -1,8 +1,8 @@
 body{
     background-color: black;
-    font-family: cursive;
     color: black;
     cursor: url(http://www.webcis.com.br/images/lupa-clientes.cur), default;
+    font-family: 'Special Elite', cursive;
 }
 
 body ::selection {
@@ -34,7 +34,7 @@ body ::selection {
 
 #content {
      grid-area: content;
-     height: 100vh;
+     height: auto;
      grid-template-rows: auto;
 }
 
@@ -82,4 +82,10 @@ img {
     border: 5px solid black;
 }
 
+#Habilidades{
+    border: 5px solid black;
+}
 
+#Interesses{
+    border: 5px solid black;
+}
